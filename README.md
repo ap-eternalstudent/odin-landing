@@ -1,2 +1,4 @@
 # odin-landing
-Landing page assignmnet from the Odin Project
+Landing page assignment from the Odin Project
+
+

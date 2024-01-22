@@ -4,35 +4,174 @@
   list-style: none;
 }
 
-body { 
-
-}
-
 header {
-  background-color: blue;
+  background-color: #1F2937;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
 
-header div {
-  color: wheat;
+.header-container {
   max-width: 900px;
+  margin: 0 auto;
 }
 
-nav {
-  /* max-width: 900px; */
-  /* display: flex ; */
-  /* justify-content: center; */
+.navigation {
+  display: flex;
 
 }
+
 .header-logo {
-
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-start;
+  flex-grow: 2;
+  color: #F9FAF8;
 }
 
-
-nav ul {
+.menu ul {
   display: flex;
   gap: 20px;
 }
 
-/* nav ul li:first-child {
-  flex-grow: 3;
-} */
+.hero {
+  display: flex;
+  padding-top: 80px;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+
+.hero-text {
+  flex-grow: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding-bottom: 10px;
+}
+
+.hero-image {
+  flex-grow: 1;
+}
+
+.hero-image img {
+  max-width: 450px;
+}
+
+.hero button {
+  padding: 3px 20px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* ************************** */
+
+.information {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.information-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.card-container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  
+}
+.card-container p {
+  text-align: center;
+}
+
+.card-unit {
+
+  max-width: 150px;
+}
+
+.information-card {
+  height: 150px;
+  width: 150px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+/* ******************************* */
+
+.quote {
+  background-color: #E5E7EB;
+}
+.quote-container {
+  padding: 100px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-author {
+  font-weight: bold;
+  text-align: end;
+}
+
+
+/* ****************************** */
+
+.cta-container {
+  margin: 100px 200px;
+  background-color: #3882F6;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text {
+  color: white;
+  width: 500px
+}
+
+
+
+.cta-button button{
+  background-color: #3882F6;
+  border: 2px white solid;
+  padding: 2px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.cta-button button:hover {
+  background-color: white;
+  color: #3882F6;
+
+}
+
+
+footer {
+  color: white;
+  text-align: center;
+padding: 20px;
+background-color: #1F2937;
+}
+
